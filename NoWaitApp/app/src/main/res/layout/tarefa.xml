@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/parceiros"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:text="@string/tarefa"
+        android:textStyle="bold"
+        android:textColor="@color/backblack"
+        android:elegantTextHeight="true"
+        android:textSize="27sp"/>
+
+    <ListView
+        android:id="@+id/listaTarefas"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginBottom="20dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnsair"
+        android:layout_marginTop="10dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:onClick="sair"
+        android:text="@string/buttonsair"
+        android:textSize="20sp"
+        android:background="@drawable/botaologin"/>
+
+</LinearLayout>

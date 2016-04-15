@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/backwhite"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.metodista.nowaitapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="150dp"
+        android:background="@drawable/nowaitapp"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="200dp"
+        android:layout_width="330dp"
+        android:layout_marginLeft="15dp"
+        android:hint="@string/email"
+        android:layout_height="50dp"
+        android:inputType="textEmailSubject"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_marginTop="250dp"
+        android:hint="@string/senha"
+        android:layout_width="330dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_marginTop="310dp"
+        android:layout_width="165dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:onClick="entrar"
+        android:text="@string/buttonentrar"
+        android:background="@drawable/botaologin"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/cadastro"
+        android:layout_marginTop="310dp"
+        android:layout_width="165dp"
+        android:layout_marginLeft="185dp"
+        android:layout_height="wrap_content"
+        android:onClick="cadastro"
+        android:text="@string/buttoncasdatro"
+        android:background="@drawable/botaologin"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/esqueci"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="370dp"
+        android:text="@string/esquecisenha"
+        android:textSize="18sp"
+        android:onClick="esqueci"
+        android:clickable="true"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/iconface"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/iconinsta"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="495dp"
+        android:text="@string/direitos"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+</android.support.design.widget.CoordinatorLayout>

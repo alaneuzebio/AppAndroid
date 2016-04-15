@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_marginLeft="7dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logohabibs"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/btncardapio"
+        android:layout_marginTop="50dp"
+        android:layout_width="340dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="cardapio"
+        android:background="@drawable/botaologin"
+        android:text="@string/buttoncardapio"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnreserva"
+        android:layout_marginTop="20dp"
+        android:layout_width="340dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="reserva"
+        android:text="@string/buttonreserva"
+        android:background="@drawable/botaologin"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_marginTop="150dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:onClick="voltar"
+        android:background="@drawable/botaologin"
+        android:text="@string/buttonvoltar"
+        android:textSize="20sp"/>
+
+</LinearLayout>

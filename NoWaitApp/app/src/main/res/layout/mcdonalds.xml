@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/parceiros"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:text="@string/mcdonalds"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logomcdonalds"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_marginTop="250dp"
+        android:layout_width="340dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="voltar"
+        android:background="@drawable/botaologin"
+        android:text="@string/buttonvoltar"
+        android:textSize="20sp"/>
+
+</LinearLayout>

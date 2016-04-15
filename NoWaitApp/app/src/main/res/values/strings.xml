@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">No Wait</string>
+    <string name="action_settings">Settings</string>
+    <string name="esquecisenha">Esqueci minha senha</string>
+    <string name="direitos">Todos os direitos reservados WTK</string>
+    <string name="buttonentrar">Entrar</string>
+    <string name="email">Digite seu E-mail</string>
+    <string name="senha">Digite sua Senha</string>
+    <string name="buttonadicionar">Adicionar Tarefa</string>
+    <string name="buttonreserva">Fazer Reserva</string>
+    <string name="buttoncardapio">Cardápio</string>
+    <string name="tarefa">Selecione um Restaurante</string>
+    <string name="habibis">HABIBS</string>
+    <string name="subway">SUBWAY</string>
+    <string name="mcdonalds">MC DONALDS</string>
+    <string name="buttonvoltar">Voltar</string>
+    <string name="buttonsair">Sair</string>
+    <string name="buttoncasdatro">Cadastrar</string>
+    <string name="nome">Digite seu Nome</string>
+    <string name="emailcadastro">E-mail</string>
+    <string name="cpf">Digite seu CPF</string>
+    <string name="cartao">Digite seu Cartão</string>
+    <string-array name="testes">
+        <item>HABIBIS</item>
+        <item>SUBWAY</item>
+        <item>MC DONALDS</item>
+    </string-array>
+    <string-array name="testeteste">
+        <item>Dia 23 - Reservado</item>
+        <item>Dia 24 - Reservado</item>
+        <item>Dia 25 - Reservado</item>
+    </string-array>
+
+</resources>

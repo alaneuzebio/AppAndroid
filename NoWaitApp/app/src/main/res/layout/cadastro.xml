@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/cadastro">
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Nome"
+        android:textSize="20sp"
+        android:textColor="@color/backblack"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:hint="@string/nome"
+        android:inputType="textEmailSubject"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/emailcampo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/emailcadastro"
+        android:textSize="20sp"
+        android:textColor="@color/backblack"/>
+
+    <EditText
+        android:id="@+id/emailcadastro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:hint="@string/email"
+        android:inputType="textEmailSubject"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="CPF"
+        android:textSize="20sp"
+        android:textColor="@color/backblack"/>
+
+    <EditText
+        android:id="@+id/cpfcampo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:hint="@string/cpf"
+        android:inputType="number"
+        android:textSize="20sp"/>
+
+        <TextView
+        android:id="@+id/cartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Cartão de Crédito"
+        android:textSize="20sp"
+        android:textColor="@color/backblack"/>
+
+    <EditText
+        android:id="@+id/cartaocampo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:hint="@string/cartao"
+        android:inputType="number"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_marginTop="50dp"
+        android:layout_width="165dp"
+        android:layout_marginLeft="95dp"
+        android:layout_height="wrap_content"
+        android:onClick="cadastar"
+        android:text="@string/buttoncasdatro"
+        android:background="@drawable/botaologin"
+        android:textSize="20sp"/>
+
+</LinearLayout>
