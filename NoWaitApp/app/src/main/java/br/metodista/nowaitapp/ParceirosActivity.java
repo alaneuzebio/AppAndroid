@@ -60,14 +60,6 @@ public class ParceirosActivity extends Activity{
                             intent = new Intent(context, HabibisActivity.class);
                             startActivity(intent);
                             break;
-                        case 1:
-                            intent = new Intent(context, SubwayActivity.class);
-                            startActivity(intent);
-                            break;
-                        case 2:
-                            intent = new Intent(context, McdonaldsActivity.class);
-                            startActivity(intent);
-                            break;
                     }
                 }
             });

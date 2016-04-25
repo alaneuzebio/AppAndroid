@@ -1,5 +1,6 @@
 package br.metodista.nowaitapp;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private AlertDialog alerta;
+    private CadastroDB db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +41,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (Activity.RESULT_OK == resultCode) {
+            Cadastro cadastro = new Cadastro();
+            cadastro.setNome(data.getStringExtra("nome"));
+            cadastro.setEmail(data.getStringExtra("email"));
+            cadastro.setCpf(data.getStringExtra("cpf"));
+            cadastro.setCartao(data.getStringExtra("cartao"));
+            cadastro.setSenhaCad(data.getStringExtra("senhaCad"));
+
+            db.salvarCadastro(cadastro);
+        }
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -53,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void cadastro(View view) {
+    public void cadastroTela(View view) {
         //chamar a tela de restaurantes.
         startActivity(new Intent(this, CadastroActivity.class));
     }

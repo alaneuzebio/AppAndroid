@@ -11,8 +11,6 @@
     <string name="buttoncardapio">Cardápio</string>
     <string name="tarefa">Selecione um Restaurante</string>
     <string name="habibis">HABIBS</string>
-    <string name="subway">SUBWAY</string>
-    <string name="mcdonalds">MC DONALDS</string>
     <string name="buttonvoltar">Voltar</string>
     <string name="buttonsair">Sair</string>
     <string name="buttoncasdatro">Cadastrar</string>
@@ -20,6 +18,7 @@
     <string name="emailcadastro">E-mail</string>
     <string name="cpf">Digite seu CPF</string>
     <string name="cartao">Digite seu Cartão</string>
+    <string name="senhaCad">Digite uma Senha</string>
     <string-array name="testes">
         <item>HABIBIS</item>
         <item>SUBWAY</item>

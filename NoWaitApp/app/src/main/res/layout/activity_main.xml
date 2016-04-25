@@ -56,7 +56,7 @@
         android:layout_width="165dp"
         android:layout_marginLeft="185dp"
         android:layout_height="wrap_content"
-        android:onClick="cadastro"
+        android:onClick="cadastroTela"
         android:text="@string/buttoncasdatro"
         android:background="@drawable/botaologin"
         android:textSize="20sp"/>
