@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        db = new CadastroDB(this);
     }
 
     @Override
@@ -72,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void cadastroTela(View view) {
         //chamar a tela de restaurantes.
-        startActivity(new Intent(this, CadastroActivity.class));
+        startActivityForResult(new Intent(this, CadastroActivity.class), 1, null);
     }
 
     public void esqueci (View view){
