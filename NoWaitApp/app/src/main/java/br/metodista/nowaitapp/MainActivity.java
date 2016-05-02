@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -12,9 +13,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.sql.SQLClientInfoException;
+import java.sql.SQLException;
+
 public class MainActivity extends AppCompatActivity {
     private AlertDialog alerta;
     private CadastroDB db;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +40,28 @@ public class MainActivity extends AppCompatActivity {
     public void entrar(View view) {
         EditText login = (EditText) findViewById(R.id.email);
         EditText senha = (EditText) findViewById(R.id.senha);
-        if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
+
+        try {
+            Cursor cursor = db.consultaCadastro
+                    (login.getText().toString(), senha.getText().toString());
+
+            if(cursor.getCount() > 0){
+                startActivity(new Intent(this, ParceirosActivity.class));
+            }else {
+                Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        /**if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
             //chamar a tela de tarefas.
             startActivity(new Intent(this, ParceirosActivity.class));
         }else {
             Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
         }
+         **/
     }
 
     @Override

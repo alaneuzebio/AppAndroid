@@ -8,6 +8,8 @@ import android.database.sqlite.SQLiteCursorDriver;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.sql.SQLException;
+
 
 public class CadastroDB extends SQLiteOpenHelper {
 
@@ -49,5 +51,12 @@ public class CadastroDB extends SQLiteOpenHelper {
             db.close();
         }
         return cadastro;
+    }
+
+    public Cursor consultaCadastro(String login, String senha) throws SQLException {
+        Cursor vcursor = null;
+        vcursor = this.getReadableDatabase().query("Cadastro", new String[]{"_id", "nome", "email", "cpf", "senhaCad"},
+                "email like" + "'"+login+"'" + "and senhaCad like" + "'"+senha+ "'", null, null, null, null);
+        return vcursor;
     }
 }

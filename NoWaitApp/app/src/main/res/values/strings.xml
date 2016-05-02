@@ -20,7 +20,7 @@
     <string name="cartao">Digite seu Cartão</string>
     <string name="senhaCad">Digite uma Senha</string>
     <string-array name="testes">
-        <item>Saint Gourmet</item>
+        <item>Cozinha Chef.</item>
     </string-array>
     <string-array name="testeteste">
         <item>Dia 23 - Reservado</item>
