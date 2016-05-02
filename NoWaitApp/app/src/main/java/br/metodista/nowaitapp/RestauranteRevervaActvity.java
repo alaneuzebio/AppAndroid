@@ -1,13 +1,8 @@
 package br.metodista.nowaitapp;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.CalendarView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -17,7 +12,7 @@ import java.util.List;
 /**
  * Created by root on 23/03/16.
  */
-public class HabibisRevervaActvity extends Activity{
+public class RestauranteRevervaActvity extends Activity{
 
     private List<String> reserva;
     private ArrayAdapter<String> adapter;
@@ -26,7 +21,7 @@ public class HabibisRevervaActvity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.habibis_reserva);
+        setContentView(R.layout.restaurante_reserva);
 
         reserva = new ArrayList<String>();
 

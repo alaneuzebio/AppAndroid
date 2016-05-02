@@ -11,7 +11,6 @@ public class Cadastro {
     private String nome;
     private String email;
     private String cpf;
-    private String cartao;
     private String senhaCad;
 
     public Long get_id() {
@@ -39,9 +38,6 @@ public class Cadastro {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-
-    public String getCartao() {return cartao; }
-    public void setCartao(String cartao) { this.cartao = cartao; }
 
     public String getSenhaCad() {return senhaCad; }
     public void setSenhaCad(String senhaCad) { this.senhaCad = senhaCad; }

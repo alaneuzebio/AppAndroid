@@ -23,7 +23,6 @@ public class CadastroActivity extends Activity{
         intent.putExtra("nome", ((EditText) findViewById(R.id.nome)).getText().toString());
         intent.putExtra("email", ((EditText) findViewById(R.id.email)).getText().toString());
         intent.putExtra("cpf", ((EditText) findViewById(R.id.cpf)).getText().toString());
-        intent.putExtra("cartao", ((EditText) findViewById(R.id.cartao)).getText().toString());
         intent.putExtra("senhaCad", ((EditText) findViewById(R.id.senhaCad)).getText().toString());
 
         setResult(Activity.RESULT_OK, intent);

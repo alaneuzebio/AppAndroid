@@ -28,7 +28,7 @@ public class ParceirosActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tarefa);
+        setContentView(R.layout.restaurante_selecao);
 //        btnadiciona = (Button) findViewById(R.id.adicionar);
 
         tarefas = new ArrayList<String>();
@@ -57,7 +57,7 @@ public class ParceirosActivity extends Activity{
                     Intent intent;
                     switch (position){
                         case 0:
-                            intent = new Intent(context, HabibisActivity.class);
+                            intent = new Intent(context, RestauranteActivity.class);
                             startActivity(intent);
                             break;
                     }
@@ -66,11 +66,10 @@ public class ParceirosActivity extends Activity{
         }
 
     public void sair (View view){
-        onStop();
         Intent intent = new Intent(Intent.ACTION_MAIN);
         intent.addCategory(Intent.CATEGORY_HOME);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
+        finish();
     }
-
 }

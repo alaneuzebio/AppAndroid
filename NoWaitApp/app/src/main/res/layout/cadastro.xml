@@ -64,25 +64,6 @@
         android:inputType="number"
         android:textSize="20sp"/>
 
-        <TextView
-        android:id="@+id/cartao_titulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:text="Cartão de Crédito"
-        android:textSize="20sp"
-        android:textColor="@color/backblack"/>
-
-    <EditText
-        android:id="@+id/cartao"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="5dp"
-        android:hint="@string/cartao"
-        android:inputType="number"
-        android:textSize="20sp"/>
-
     <TextView
         android:id="@+id/senha_titulo"
         android:layout_width="wrap_content"

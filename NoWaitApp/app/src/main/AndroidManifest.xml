@@ -22,27 +22,27 @@
             android:name=".ParceirosActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".HabibisActivity"
+            android:name=".RestauranteActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".HabibisCardapioActivity"
+            android:name=".RestauranteCardapioActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -52,17 +52,23 @@
             android:name=".CadastroActivity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".HabibisRevervaActvity"
+            android:name=".RestauranteRevervaActvity"
             android:screenOrientation="portrait"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".SobreChefActvity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
         </activity>
     </application>
 </manifest>

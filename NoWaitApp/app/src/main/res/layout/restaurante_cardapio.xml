@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo"
+            android:orientation="vertical"
+            android:layout_marginTop="1dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu1"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu2"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu3"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu4"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu5"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu6"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            android:background="@drawable/tela_menu7"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:onClick="voltar"
+        android:textColor="@color/backblack"
+        android:background="@drawable/botaopad"
+        android:text="@string/buttonvoltar" />
+
+</LinearLayout>
+</ScrollView>

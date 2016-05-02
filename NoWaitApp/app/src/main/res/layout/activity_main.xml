@@ -96,4 +96,12 @@
         android:textSize="15sp"
         android:textAlignment="center"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="515dp"
+        android:text="@string/direitos1"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
 </android.support.design.widget.CoordinatorLayout>

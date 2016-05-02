@@ -3,6 +3,8 @@ package br.metodista.nowaitapp;
 import android.app.AlertDialog;
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteCursorDriver;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -16,7 +18,6 @@ public class CadastroDB extends SQLiteOpenHelper {
                 "nome text, " +
                 "email text, " +
                 "cpf integer, " +
-                "cartao integer," +
                 "senhaCad text);");
     }
 
@@ -35,7 +36,6 @@ public class CadastroDB extends SQLiteOpenHelper {
             values.put("nome", cadastro.getNome());
             values.put("email", cadastro.getEmail());
             values.put("cpf", (cadastro.getCpf()));
-            values.put("cartao", (cadastro.getCartao()));
             values.put("senhaCad", (cadastro.getSenhaCad()));
             if (cadastro.get_id() == null) {
                 long id = db.insert("Cadastro", null, values);

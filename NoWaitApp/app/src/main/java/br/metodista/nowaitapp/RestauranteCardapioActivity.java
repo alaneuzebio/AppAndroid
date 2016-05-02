@@ -8,15 +8,15 @@ import android.view.View;
 /**
  * Created by root on 17/03/16.
  */
-public class HabibisCardapioActivity extends Activity{
+public class RestauranteCardapioActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.habibis_cardapio);
+        setContentView(R.layout.restaurante_cardapio);
     }
 
     public void voltar(View view) {
         //chamar a tela de restaurantes.
-        startActivity(new Intent(this, HabibisActivity.class));
+        startActivity(new Intent(this, RestauranteActivity.class));
     }
 }

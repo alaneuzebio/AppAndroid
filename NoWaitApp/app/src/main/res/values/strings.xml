@@ -2,15 +2,15 @@
     <string name="app_name">No Wait</string>
     <string name="action_settings">Settings</string>
     <string name="esquecisenha">Esqueci minha senha</string>
-    <string name="direitos">Todos os direitos reservados WTK</string>
+    <string name="direitos">© 2016 por Cozinha Chef.</string>
+    <string name="direitos1">Criado por WTK</string>
     <string name="buttonentrar">Entrar</string>
     <string name="email">Digite seu E-mail</string>
     <string name="senha">Digite sua Senha</string>
-    <string name="buttonadicionar">Adicionar Tarefa</string>
+    <string name="sobre">Conheça Chef Cozinha</string>
     <string name="buttonreserva">Fazer Reserva</string>
     <string name="buttoncardapio">Cardápio</string>
     <string name="tarefa">Selecione um Restaurante</string>
-    <string name="habibis">HABIBS</string>
     <string name="buttonvoltar">Voltar</string>
     <string name="buttonsair">Sair</string>
     <string name="buttoncasdatro">Cadastrar</string>
@@ -20,9 +20,7 @@
     <string name="cartao">Digite seu Cartão</string>
     <string name="senhaCad">Digite uma Senha</string>
     <string-array name="testes">
-        <item>HABIBIS</item>
-        <item>SUBWAY</item>
-        <item>MC DONALDS</item>
+        <item>Saint Gourmet</item>
     </string-array>
     <string-array name="testeteste">
         <item>Dia 23 - Reservado</item>

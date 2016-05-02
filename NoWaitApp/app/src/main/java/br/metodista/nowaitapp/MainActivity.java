@@ -50,10 +50,10 @@ public class MainActivity extends AppCompatActivity {
             cadastro.setNome(data.getStringExtra("nome"));
             cadastro.setEmail(data.getStringExtra("email"));
             cadastro.setCpf(data.getStringExtra("cpf"));
-            cadastro.setCartao(data.getStringExtra("cartao"));
             cadastro.setSenhaCad(data.getStringExtra("senhaCad"));
 
             db.salvarCadastro(cadastro);
+            Toast.makeText(this, "USUARIO CADASTRADO!", Toast.LENGTH_LONG).show();
         }
     }
 
