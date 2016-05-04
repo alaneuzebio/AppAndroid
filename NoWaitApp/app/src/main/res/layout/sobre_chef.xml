@@ -30,6 +30,7 @@
         android:layout_gravity="center"
         android:background="@drawable/tela_inicial1"
         android:orientation="vertical"
+        android:onClick="cardapio"
         android:layout_marginTop="8dp"/>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,7 +47,19 @@
         android:layout_gravity="center"
         android:background="@drawable/tela_inicial3"
         android:orientation="vertical"
+        android:onClick="contato"
         android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="voltar"
+        android:background="@drawable/botaopad"
+        android:text="@string/buttonvoltar"
+        android:textSize="20sp"/>
 
 </LinearLayout>
 

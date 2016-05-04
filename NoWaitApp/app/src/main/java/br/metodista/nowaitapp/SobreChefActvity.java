@@ -20,4 +20,14 @@ public class SobreChefActvity extends Activity {
         startActivity(new Intent(this, RestauranteActivity.class));
     }
 
+    public void cardapio(View view) {
+        //chamar a tela de restaurantes.
+        startActivity(new Intent(this, RestauranteCardapioActivity.class));
+    }
+
+    public void contato(View view) {
+        //chamar a tela de restaurantes.
+        startActivity(new Intent(this, RestauranteContatoActivity.class));
+    }
+
 }

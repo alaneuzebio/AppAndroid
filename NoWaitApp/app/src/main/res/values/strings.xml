@@ -19,6 +19,10 @@
     <string name="cpf">Digite seu CPF</string>
     <string name="cartao">Digite seu Cartão</string>
     <string name="senhaCad">Digite uma Senha</string>
+    <string name="descricao"> Desfrute do ambiente que oferece este restaurante, onde é possível escolher entre a grande variedade de pratos. O nosso pessoal está à sua disposição e prontos para oferecer o melhor serviço </string>
+    <string name="contato"> Contato</string>
+    <string name="contato1"> Avenida Senador Vergueiro - 4600 - Rudge Ramos - SBC</string>
+    <string name="contato2"> Tel.: (011) 2191-0001 / 4366-0001 </string>
     <string-array name="testes">
         <item>Cozinha Chef.</item>
     </string-array>

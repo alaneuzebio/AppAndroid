@@ -42,7 +42,7 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:hint="@string/email"
-        android:inputType="textEmailSubject"
+        android:inputType="textEmailAddress"
         android:textSize="20sp"/>
 
     <TextView

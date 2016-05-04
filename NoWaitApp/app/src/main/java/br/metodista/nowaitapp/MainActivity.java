@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
         /**if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
             //chamar a tela de tarefas.
             startActivity(new Intent(this, ParceirosActivity.class));

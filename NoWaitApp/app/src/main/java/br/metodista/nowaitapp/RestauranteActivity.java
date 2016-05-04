@@ -23,14 +23,14 @@ public class RestauranteActivity extends Activity {
         startActivity(new Intent(this, SobreChefActvity.class));
     }
 
-    public void cardapio(View view) {
-        //chamar a tela de restaurantes.
-        startActivity(new Intent(this, RestauranteCardapioActivity.class));
-    }
-
     public void reserva(View view) {
         //chamar a tela de restaurantes.
         startActivity(new Intent(this, RestauranteRevervaActvity.class));
+    }
+
+    public void cardapio(View view) {
+        //chamar a tela de restaurantes.
+        startActivity(new Intent(this, RestauranteCardapioActivity.class));
     }
 
     public void voltar(View view) {
