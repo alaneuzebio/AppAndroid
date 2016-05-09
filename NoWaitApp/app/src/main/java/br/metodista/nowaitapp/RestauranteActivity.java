@@ -25,7 +25,7 @@ public class RestauranteActivity extends Activity {
 
     public void reserva(View view) {
         //chamar a tela de restaurantes.
-        startActivity(new Intent(this, RestauranteRevervaActvity.class));
+        startActivity(new Intent(this, RestauranteReservaActvity.class));
     }
 
     public void cardapio(View view) {

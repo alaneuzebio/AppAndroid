@@ -1,8 +1,10 @@
 package br.metodista.nowaitapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.CalendarView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -12,7 +14,7 @@ import java.util.List;
 /**
  * Created by root on 23/03/16.
  */
-public class RestauranteRevervaActvity extends Activity{
+public class RestauranteReservaActvity extends Activity{
 
     private List<String> reserva;
     private ArrayAdapter<String> adapter;
@@ -32,5 +34,6 @@ public class RestauranteRevervaActvity extends Activity{
 
         ListView lista = (ListView) findViewById(R.id.listaReserva);
         lista.setAdapter(adapter);
+
     }
 }

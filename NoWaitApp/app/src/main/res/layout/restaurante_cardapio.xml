@@ -18,7 +18,7 @@
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
-            android:layout_height="250dp"
+            android:layout_height="295dp"
             android:layout_gravity="center"
             android:background="@drawable/tela_menu1"
             android:orientation="vertical"
@@ -32,6 +32,30 @@
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
 
+        <EditText
+            android:id="@+id/qtdfe"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:background="@color/backwhite"
+            android:layout_marginLeft="30dp"
+            android:hint=" Qtd"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/btnadcfe"
+            android:layout_marginTop="-48dp"
+            android:layout_width="125dp"
+            android:layout_marginLeft="205dp"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Adicionar"
+            android:background="@drawable/botaopad"
+            android:textSize="20sp"/>
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
             android:layout_height="250dp"
@@ -39,6 +63,30 @@
             android:background="@drawable/tela_menu3"
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/qtdsalca"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:background="@color/backwhite"
+            android:layout_marginLeft="30dp"
+            android:hint=" Qtd"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/btnadcsalca"
+            android:layout_marginTop="-48dp"
+            android:layout_width="125dp"
+            android:layout_marginLeft="205dp"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Adicionar"
+            android:background="@drawable/botaopad"
+            android:textSize="20sp"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
@@ -48,6 +96,30 @@
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
 
+        <EditText
+            android:id="@+id/qtdca"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:background="@color/backwhite"
+            android:layout_marginLeft="30dp"
+            android:hint=" Qtd"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/btnadcca"
+            android:layout_marginTop="-48dp"
+            android:layout_width="125dp"
+            android:layout_marginLeft="205dp"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Adicionar"
+            android:background="@drawable/botaopad"
+            android:textSize="20sp"/>
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
             android:layout_height="250dp"
@@ -56,6 +128,30 @@
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
 
+        <EditText
+            android:id="@+id/qtdbi"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:background="@color/backwhite"
+            android:layout_marginLeft="30dp"
+            android:hint=" Qtd"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/btnadcbi"
+            android:layout_marginTop="-48dp"
+            android:layout_width="125dp"
+            android:layout_marginLeft="205dp"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Adicionar"
+            android:background="@drawable/botaopad"
+            android:textSize="20sp"/>
+
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
             android:layout_height="250dp"
@@ -63,6 +159,30 @@
             android:background="@drawable/tela_menu6"
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/qtddia"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:background="@color/backwhite"
+            android:layout_marginLeft="30dp"
+            android:hint=" Qtd"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:maxLength="1"/>
+
+        <Button
+            android:id="@+id/btnadcdia"
+            android:layout_marginTop="-48dp"
+            android:layout_width="125dp"
+            android:layout_marginLeft="205dp"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Adicionar"
+            android:background="@drawable/botaopad"
+            android:textSize="20sp"/>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="300dp"
