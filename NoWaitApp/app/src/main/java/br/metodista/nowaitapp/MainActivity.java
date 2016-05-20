@@ -44,15 +44,14 @@ public class MainActivity extends AppCompatActivity {
         try {
             Cursor cursor = db.consultaCadastro
                     (login.getText().toString(), senha.getText().toString());
-
-            if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
-                //chamar a tela de tarefas.
-                startActivity(new Intent(this, AdminActivity.class));
-            }
-            if(cursor.getCount() > 0){
+            if(cursor.getCount() > 0) {
                 startActivity(new Intent(this, ParceirosActivity.class));
             }else {
                 Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
+            }
+            if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
+                //chamar a tela de tarefas.
+                startActivity(new Intent(this, AdminActivity.class));
             }
         } catch (SQLException e) {
             e.printStackTrace();

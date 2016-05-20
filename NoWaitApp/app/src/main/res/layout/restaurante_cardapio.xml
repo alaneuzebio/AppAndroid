@@ -51,7 +51,7 @@
             android:layout_width="125dp"
             android:layout_marginLeft="205dp"
             android:layout_height="wrap_content"
-            android:onClick="entrar"
+            android:onClick="adicionar1"
             android:text="Adicionar"
             android:background="@drawable/botaopad"
             android:textSize="20sp"/>
@@ -83,7 +83,7 @@
             android:layout_width="125dp"
             android:layout_marginLeft="205dp"
             android:layout_height="wrap_content"
-            android:onClick="entrar"
+            android:onClick="adicionar2"
             android:text="Adicionar"
             android:background="@drawable/botaopad"
             android:textSize="20sp"/>
@@ -115,7 +115,7 @@
             android:layout_width="125dp"
             android:layout_marginLeft="205dp"
             android:layout_height="wrap_content"
-            android:onClick="entrar"
+            android:onClick="adicionar3"
             android:text="Adicionar"
             android:background="@drawable/botaopad"
             android:textSize="20sp"/>
@@ -147,7 +147,7 @@
             android:layout_width="125dp"
             android:layout_marginLeft="205dp"
             android:layout_height="wrap_content"
-            android:onClick="entrar"
+            android:onClick="adicionar4"
             android:text="Adicionar"
             android:background="@drawable/botaopad"
             android:textSize="20sp"/>
@@ -179,7 +179,7 @@
             android:layout_width="125dp"
             android:layout_marginLeft="205dp"
             android:layout_height="wrap_content"
-            android:onClick="entrar"
+            android:onClick="adicionar5"
             android:text="Adicionar"
             android:background="@drawable/botaopad"
             android:textSize="20sp"/>
@@ -192,17 +192,31 @@
             android:orientation="vertical"
             android:layout_marginTop="8dp"/>
 
-    <Button
-        android:id="@+id/btnvoltar"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="15dp"
-        android:padding="10dp"
-        android:onClick="voltar"
-        android:textColor="@color/backblack"
-        android:background="@drawable/botaopad"
-        android:text="@string/buttonvoltar" />
+        <Button
+            android:id="@+id/btnfinalizar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:onClick="finalizar"
+            android:textColor="@color/backblack"
+            android:background="@drawable/botaopad"
+            android:text="@string/buttonfinalizar"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnvoltar"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:onClick="voltar"
+            android:textColor="@color/backblack"
+            android:background="@drawable/botaopad"
+            android:text="@string/buttonvoltar"
+            android:textSize="20dp"/>
 
 </LinearLayout>
 </ScrollView>

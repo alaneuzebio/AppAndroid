@@ -2,7 +2,9 @@ package br.metodista.nowaitapp;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -33,5 +35,10 @@ public class AdminActivity extends Activity {
         ListView lista = (ListView) findViewById(R.id.listaAdm);
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, usr);
         lista.setAdapter(adapter);
+    }
+
+    public void voltar(View view) {
+        //chamar a tela de restaurantes.
+        startActivity(new Intent(this, MainActivity.class));
     }
 }
