@@ -17,6 +17,7 @@
     <string name="nome">Digite seu Nome</string>
     <string name="emailcadastro">E-mail</string>
     <string name="cpf">Digite seu CPF</string>
+    <string name="adm">Lista Usuário</string>
     <string name="cartao">Digite seu Cartão</string>
     <string name="senhaCad">Digite uma Senha</string>
     <string name="descricao"> Desfrute do ambiente que oferece este restaurante, onde é possível escolher entre a grande variedade de pratos. O nosso pessoal está à sua disposição e prontos para oferecer o melhor serviço </string>

@@ -41,7 +41,4 @@ public class Cadastro {
 
     public String getSenhaCad() {return senhaCad; }
     public void setSenhaCad(String senhaCad) { this.senhaCad = senhaCad; }
-
-
-
 }
