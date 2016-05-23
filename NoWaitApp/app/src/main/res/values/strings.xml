@@ -20,8 +20,10 @@
     <string name="adm">Lista Usuário</string>
     <string name="cartao">Digite seu Cartão</string>
     <string name="senhaCad">Digite uma Senha</string>
+    <string name="tempo">Tempo Estimado</string>
     <string name="buttonfinalizar">Finalizar Pedido</string>
-    <string name="descricao"> Desfrute do ambiente que oferece este restaurante, onde é possível escolher entre a grande variedade de pratos. O nosso pessoal está à sua disposição e prontos para oferecer o melhor serviço </string>
+    <string name="descricao"> Desfrute do ambiente que oferece este restaurante, onde é possível escolher entre a grande variedade de pratos.
+        O nosso pessoal está à sua disposição e prontos para oferecer o melhor serviço </string>
     <string name="contato"> Contato</string>
     <string name="contato1"> Avenida Senador Vergueiro - 4600 - Rudge Ramos - SBC</string>
     <string name="contato2"> Tel.: (011) 2191-0001 / 4366-0001 </string>
@@ -33,5 +35,6 @@
         <item>Dia 24 - Reservado</item>
         <item>Dia 25 - Reservado</item>
     </string-array>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

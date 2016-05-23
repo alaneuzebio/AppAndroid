@@ -49,7 +49,7 @@ public class RestauranteCardapioActivity extends Activity{
             //define o titulo
             builder.setTitle("CONFIRMAÇÃO PEDIDO");
             //define a mensagem
-            builder.setMessage("PEDIDO\n2 Pratos Salada R$ 19,90\n2 Pratos Carne R$ 39,90\nTotal    R$59,80");
+            builder.setMessage("PEDIDO\n2 Bife Bourguignon R$ 42,40\n2 Salada Campestre R$ 20,00\nTotal    R$62,40");
             //define um botão como positivo
             builder.setPositiveButton("CONFIRMAR", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface arg0, int arg1) {
@@ -66,5 +66,7 @@ public class RestauranteCardapioActivity extends Activity{
         AlertDialog alerta = builder.create();
             //Exibe
             alerta.show();
+
+        startActivity(new Intent(this, MapsActivity.class));
     }
 }

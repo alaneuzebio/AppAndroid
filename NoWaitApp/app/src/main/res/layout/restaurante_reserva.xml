@@ -23,7 +23,7 @@
 
     <ListView
         android:id="@+id/listaReserva"
-        android:layout_width="match _parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </ListView>
 
