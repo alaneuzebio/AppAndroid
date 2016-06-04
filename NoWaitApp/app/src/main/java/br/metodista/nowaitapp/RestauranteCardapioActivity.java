@@ -44,29 +44,45 @@ public class RestauranteCardapioActivity extends Activity{
     }
 
     public void finalizar (View view) {
-            //Cria o gerador do AlertDialog
+            final Intent maps = new Intent(this, MapsActivity.class);
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            //define o titulo
+            final AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
             builder.setTitle("CONFIRMAÇÃO PEDIDO");
-            //define a mensagem
             builder.setMessage("PEDIDO\n2 Bife Bourguignon R$ 42,40\n2 Salada Campestre R$ 20,00\nTotal    R$62,40");
             //define um botão como positivo
             builder.setPositiveButton("CONFIRMAR", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface arg0, int arg1) {
-                    Toast.makeText(RestauranteCardapioActivity.this, "PEDIDO CONFIRMADO" , Toast.LENGTH_SHORT).show();
+                public void onClick(DialogInterface dialog, int which) {
+                    builder1.setTitle("ADIANTAR PEDIDO");
+                    builder1.setMessage("DESEJA ADIANTAR O PEDIDO?");
+                    //define um botão como positivo
+                    builder1.setPositiveButton("SIM", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            //Toast.makeText(RestauranteCardapioActivity.this, "PEDIDO CONFIRMADO" , Toast.LENGTH_SHORT).show();
+                            dialog.dismiss();
+                            startActivity(maps);
+                            finish();
+                        }
+                    });
+                    builder1.setNegativeButton("NAO", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            //Toast.makeText(RestauranteCardapioActivity.this, "PEDIDO CANCELADO" , Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                    AlertDialog alerta = builder1.create();
+                    alerta.show();
+
+                    //Toast.makeText(RestauranteCardapioActivity.this, "PEDIDO CONFIRMADO" , Toast.LENGTH_SHORT).show();
+                    //dialog.dismiss();
+                    //startActivity(maps);
+                    //finish();
                 }
             });
-            //define um botão como negativo.
             builder.setNegativeButton("VOLTAR", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface arg0, int arg1) {
+                public void onClick(DialogInterface dialog, int id) {
                     Toast.makeText(RestauranteCardapioActivity.this, "PEDIDO CANCELADO" , Toast.LENGTH_SHORT).show();
                 }
             });
-            //cria o AlertDialog
         AlertDialog alerta = builder.create();
-            //Exibe
-            alerta.show();
-
-        startActivity(new Intent(this, MapsActivity.class));
+        alerta.show();
     }
 }

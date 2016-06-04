@@ -18,4 +18,9 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyCRzsWMdgfnbxha6XiTIYuX5pNQnJecm-U
     </string>
+
+    List matchingProviders = locationManager.getAllProviders();
+    LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+
 </resources>

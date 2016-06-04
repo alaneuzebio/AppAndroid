@@ -8,7 +8,7 @@
     <string name="email">Digite seu E-mail</string>
     <string name="senha">Digite sua Senha</string>
     <string name="sobre">Conheça Chef Cozinha</string>
-    <string name="buttonreserva">Fazer Reserva</string>
+    <string name="buttonreserva">Ver Reserva</string>
     <string name="buttoncardapio">Cardápio</string>
     <string name="tarefa">Selecione um Restaurante</string>
     <string name="buttonvoltar">Voltar</string>
@@ -31,9 +31,9 @@
         <item>Cozinha Chef.</item>
     </string-array>
     <string-array name="testeteste">
-        <item>Dia 23 - Reservado</item>
-        <item>Dia 24 - Reservado</item>
-        <item>Dia 25 - Reservado</item>
+        <item>Dia 08 das 17 às 19 - Paulo (Mesa 1)</item>
+        <item>Dia 08 das 17 ás 19 - Bruno (Mesa 2)</item>
+        <item>Dia 08 das 17 ás 19 - Lucas (Mesa 3)</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
 

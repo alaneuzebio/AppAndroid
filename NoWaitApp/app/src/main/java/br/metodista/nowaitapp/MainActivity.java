@@ -46,15 +46,17 @@ public class MainActivity extends AppCompatActivity {
                     (login.getText().toString(), senha.getText().toString());
             if(cursor.getCount() > 0) {
                 startActivity(new Intent(this, ParceirosActivity.class));
-            }else {
-                Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
             }
-            if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
-                //chamar a tela de tarefas.
-                startActivity(new Intent(this, AdminActivity.class));
+            else {
+                Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
             }
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+
+        if ("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())) {
+            //chamar a tela de tarefas.
+            startActivity(new Intent(this, AdminActivity.class));
         }
 
         /**else {
