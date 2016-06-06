@@ -22,6 +22,8 @@
     <string name="senhaCad">Digite uma Senha</string>
     <string name="tempo">Tempo Estimado</string>
     <string name="buttonfinalizar">Finalizar Pedido</string>
+    <string name="atencao">Atenção! O tempo estimado informado irá</string>
+    <string name="atencao1">influenciar no preparo do seu pedido.</string>
     <string name="descricao"> Desfrute do ambiente que oferece este restaurante, onde é possível escolher entre a grande variedade de pratos.
         O nosso pessoal está à sua disposição e prontos para oferecer o melhor serviço </string>
     <string name="contato"> Contato</string>
@@ -32,8 +34,6 @@
     </string-array>
     <string-array name="testeteste">
         <item>Dia 08 das 17 às 19 - Paulo (Mesa 1)</item>
-        <item>Dia 08 das 17 ás 19 - Bruno (Mesa 2)</item>
-        <item>Dia 08 das 17 ás 19 - Lucas (Mesa 3)</item>
     </string-array>
     <string name="title_activity_maps">Map</string>
 

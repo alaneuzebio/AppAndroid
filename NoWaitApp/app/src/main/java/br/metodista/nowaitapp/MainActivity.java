@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                     (login.getText().toString(), senha.getText().toString());
             if(cursor.getCount() > 0) {
                 startActivity(new Intent(this, ParceirosActivity.class));
+                Toast.makeText(this, " BEM VINDO ", Toast.LENGTH_SHORT)
+                        .show();
             }
             else {
                 Toast.makeText(this, "Login ou senha inválida!", Toast.LENGTH_SHORT).show();
@@ -101,15 +103,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void esqueci (View view){
-        //Cria o gerador do AlertDialog
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        //define o titulo
         builder.setTitle("Esqueci Senha");
-        //define a mensagem
         builder.setMessage("Senha Enviada para seu E-mail");
-        //cria o AlertDialog
         alerta = builder.create();
-        //Exibe
         alerta.show();
 
     }

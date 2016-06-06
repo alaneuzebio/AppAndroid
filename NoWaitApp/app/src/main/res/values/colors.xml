@@ -6,4 +6,5 @@
     <color name="backblack">#000000</color>
     <color name="backwhite">#FFFFFF</color>
     <color name="backred">#FFFF0000</color>
+    <color name="backmaps">#ced1f5</color>
 </resources>
